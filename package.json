@@ -1,0 +1,35 @@
+{
+  "name": "socket-random-generator",
+  "version": "0.0.1",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dkunin/socket-random-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dkunin/socket-random-generator/issues"
+  },
+  "homepage": "https://github.com/dkunin/socket-random-generator",
+  "keywords": [
+    "server,",
+    "simple,",
+    "socket,",
+    "random,",
+    "data,",
+    "feed"
+  ],
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "license": "MIT",
+  "description": "> This is an example file with default selections.",
+  "dependencies": {
+    "express": "4.14.0",
+    "faker": "3.1.0",
+    "socket.io": "1.6.0"
+  }
+}
