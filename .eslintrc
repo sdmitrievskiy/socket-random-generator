@@ -57,7 +57,8 @@
         ],
         "comma-spacing": [
             2, {
-                "before": false
+                "before": false,
+                "after": true
             }
         ],
         "no-spaced-func": 2,
@@ -179,6 +180,9 @@
         "unicodeCodePointEscapes": true,
         "globalReturn": true,
         "experimentalObjectRestSpread": true
+    },
+    "parserOptions": {
+        "sourceType": "module"
     },
     "plugins": []
 }
